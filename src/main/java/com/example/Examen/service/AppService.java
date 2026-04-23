@@ -93,7 +93,7 @@ public class AppService {
         jugador.setSaldo(jugador.getSaldo() + monto);
         return jugadorRepository.save(jugador);
     }
-// ahhhh
+// ahhhhhhh
     public List<BeanPartida> obtenerHistorialPartidas(Long jugadorId) {
         return partidaRepository.findByJugadorId(jugadorId);
     }
